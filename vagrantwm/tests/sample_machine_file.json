@@ -1,0 +1,53 @@
+{
+	"version": 1,
+	"machines": {
+		"475df7124f3341ff8671f2edf784b2a9": {
+			"local_data_path": "/Users/joaorafael/dev/vm/shipyard/second_node/.vagrant",
+			"name": "vm1",
+			"provider": "virtualbox",
+			"state": "poweroff",
+			"vagrantfile_name": null,
+			"vagrantfile_path": "/Users/joaorafael/dev/vm/shipyard/second_node",
+			"updated_at": null,
+			"extra_data": {
+				"box": {
+					"name": "ubuntu/trusty64",
+					"provider": "virtualbox",
+					"version": "20160406.0.0"
+				}
+			}
+		},
+		"be2e6ea5045649a7a6c40f9ecaeba7f9": {
+			"local_data_path": "/Users/joaorafael/dev/vm/shipyard/test_shipyard/.vagrant",
+			"name": "vm2",
+			"provider": "virtualbox",
+			"state": "running",
+			"vagrantfile_name": null,
+			"vagrantfile_path": "/Users/joaorafael/dev/vm/shipyard/test_shipyard",
+			"updated_at": null,
+			"extra_data": {
+				"box": {
+					"name": "joaorafael/trusty64-docker",
+					"provider": "virtualbox",
+					"version": "0.1"
+				}
+			}
+		},
+		"fc2fdaebe581466093998f9f3c928e99": {
+			"local_data_path": "/Users/joaorafael/dev/swapi-graphene/.vagrant",
+			"name": "vm3",
+			"provider": "virtualbox",
+			"state": "stopped",
+			"vagrantfile_name": null,
+			"vagrantfile_path": "/Users/joaorafael/dev/swapi-graphene",
+			"updated_at": null,
+			"extra_data": {
+				"box": {
+					"name": "ubuntu/trusty64",
+					"provider": "virtualbox",
+					"version": "20160406.0.0"
+				}
+			}
+		}
+	}
+}
